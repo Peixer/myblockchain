@@ -1,0 +1,12 @@
+syntax = "proto3";
+package peixer.myblockchain.myblockchain;
+
+import "gogoproto/gogo.proto";
+import "myblockchain/myblockchain/params.proto";
+
+option go_package = "github.com/Peixer/myblockchain/x/myblockchain/types";
+
+// GenesisState defines the myblockchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

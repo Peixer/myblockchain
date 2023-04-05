@@ -1,0 +1,12 @@
+syntax = "proto3";
+package peixer.myblockchain.myblockchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/Peixer/myblockchain/x/myblockchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

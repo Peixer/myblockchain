@@ -1,0 +1,7 @@
+syntax = "proto3";
+package peixer.myblockchain.myblockchain;
+
+option go_package = "github.com/Peixer/myblockchain/x/myblockchain/types";
+
+// Msg defines the Msg service.
+service Msg {}
