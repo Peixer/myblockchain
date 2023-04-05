@@ -1,6 +1,6 @@
 module github.com/Peixer/myblockchain
 
-go 1.20
+go 1.18
 
 require (
 	github.com/cosmos/cosmos-sdk v0.46.7
